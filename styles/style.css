@@ -1,0 +1,85 @@
+    
+    @font-face {
+        font-family: nunito;
+        src: url(/fonts/Nunito-VariableFont_wght.ttf) format(truetype);
+        font-weight: normal;
+        font-size: normal;
+    }
+    body {
+        background-image: linear-gradient(90deg, #3f6672,#6abdd9);
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div {
+        flex-wrap: wrap;
+    }
+
+    img#perf{
+        margin: 20px 0px 0px 0px;
+        width: 150px;
+        height: auto;
+        border-radius: 150px;
+        box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.241);
+    }
+
+    .links {
+        display: flex;
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        margin: 4px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 7px 0px;
+        transition: .3s ease-in-out;
+        box-shadow: .3s ease-in-out;
+    }
+    .links:hover {
+        background-color: transparent;
+        box-shadow: inset 300px 0 0 0 transparent;
+    }
+
+    span {
+        font-family: nunito,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        margin: 1px;
+    }
+
+    .selc {
+        margin: 5px;
+        width: 30px;
+        height: auto;   
+        color: #111;
+        font-size: 25px;   
+    }
+
+    h1{
+        font-family: nunito,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 10px;
+    }
+
+    footer {
+        font-size: 9px;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+        animation: fadeIn 1.5s ease;
+    }
+
+    div#men{
+        display: none ;
+        direction: rtl;
+        margin: 10px;
+        cursor: pointer;
+        transition: 1.0s;
+    }
